@@ -2,7 +2,9 @@
         padding: 0;
         margin: 0;
         box-sizing: border-box;
+        font-family: 'Montserrat', sans-serif;
     }
+
     
     header {
         background: #fff;
@@ -14,7 +16,9 @@
         text-align: center;
         padding: 20px 0;
     }
-    
+    header .header__site-title a img{
+        width: 15%;
+    }
     header .header-all {
         text-align: right;
     }
@@ -80,7 +84,7 @@
     }
     
     .basic-section .basic-section__site-title {
-        font-family: Journal, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-size: 50px;
         font-weight: 400;
         padding-bottom: 60px;
@@ -98,7 +102,7 @@
         font-weight: 500;
         font-size: 18px;
         padding: 10px 50px;
-        background: #414eea;
+        background: #EF7F1A;
         border-radius: 25px;
         transition: 0.3s;
     }
@@ -111,7 +115,7 @@
     
     .site-create .site-create__title,
     .site-create .site-create__works-title {
-        font-family: Open-Sans, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 40px;
         padding-bottom: 50px;
@@ -126,7 +130,7 @@
     
     .site-create .site-create__title,
     .site-create .site-create__works-title {
-        font-family: Open-Sans, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 400;
         font-size: 40px;
         padding-bottom: 50px;
@@ -209,7 +213,7 @@
     }
 
     .reviews .carousel-caption  .review__text p {
-        font-family: Open-Sans, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-weight: 300;
         font-size: 20px;
         color: #fff;
@@ -248,7 +252,7 @@
     }
     
     .technologies .technologies-card.card-1 {
-        background: url(../img/tech-bg-1.webp)no-repeat top / cover, url(../img/tech-bg-1.png)no-repeat top / cover;
+        background: url(../img/Group\ 1.svg)no-repeat top / cover, url(../img/Group\ 1.svg)no-repeat top / cover;
     }
     
     .technologies .technologies-card {
@@ -270,7 +274,7 @@
     
     .technologies .technologies-card .technologies-card__title {
         display: inline-block;
-        font-family: Open-Sans, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-size: 22px;
         margin-top: 15px;
         padding-bottom: 15px;
@@ -278,19 +282,19 @@
     }
     
     .technologies .technologies-card .technologies-card__text {
-        font-family: Open-Sans, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-size: 18px;
     }
     
     .technologies .technologies-card.card-2 {
-        background: url(../img/tech-bg-2.webp)no-repeat top / cover, url(../img/tech-bg-2.png)no-repeat top / cover;
+        background: url(../img/Group\ 1.svg)no-repeat top / cover, url(../img/Group\ 1.svg)no-repeat top / cover;
     }
     /* калл */
     
     .back-call {
         color: #fff;
         padding: 160px 0 80px 0;
-        background: url(../img/form-bg.webp)no-repeat top / cover, url(../img/form-bg.png)no-repeat top / cover;
+        background: url(../img/call.png)no-repeat top / cover, url(../img/call.png)no-repeat top / cover;
         text-align: center;
     }
     
@@ -310,6 +314,7 @@
     
     .back-call form input#number {
         background-image: url(../img/form-phone.webp), url(../img/form-phone.png);
+        
     }
     
     .back-call form input {
@@ -319,12 +324,15 @@
         width: 350px;
         background: inherit;
         border: 0;
-        border-bottom: 1px solid #ceccd0;
-        color: #ceccd0;
+        border-bottom: 1px solid #fff;
+        color: #fff !important;
         font-size: 20px;
         padding: 0 0 5px 45px;
         background-repeat: no-repeat;
         background-position-y: 3px;
+    }
+    .back-call form input::placeholder{
+        color:#fff
     }
     
     .back-call form button {
@@ -333,7 +341,7 @@
         font-weight: 500;
         font-size: 18px;
         padding: 10px 50px;
-        background: #414eea;
+        background: #EF7F1A;
         border-radius: 25px;
         border: 0;
         outline: none;
@@ -347,8 +355,11 @@
         position: relative;
         overflow: hidden;
         text-align: center;
-        background: url(../img/order-site-bg.webp)no-repeat bottom / cover, url(../img/order-site-bg.png)no-repeat bottom / cover;
+        background: rgb(149,76,10);
+background: linear-gradient(0deg, rgba(149,76,10,1) 0%, rgba(175,93,20,1) 57%, rgba(239,127,26,1) 100%);
+        /* background: url(../img/order-site-bg.webp)no-repeat bottom / cover, url(../img/order-site-bg.webp)no-repeat bottom / cover; */
         padding: 80px 0 150px 0;
+        
     }
     
     .order-site:before {
@@ -445,7 +456,9 @@
     .footer .footer__copyright {
         margin-top: 140px;
     }
-    
+    .footer .footer__copyright img{
+        width: 50%;
+    }
     .footer .footer__copyright span:last-of-type {
         padding-top: 0;
     }
@@ -491,7 +504,7 @@
     }
     
     .footer .footer-number {
-        font-family: Open-Sans, 'sans-serif';
+        font-family: 'Montserrat', sans-serif;
         font-size: 28px;
         padding: 15px 0 0px 0;
     }
